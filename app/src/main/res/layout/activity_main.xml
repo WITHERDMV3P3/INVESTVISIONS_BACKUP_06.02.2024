@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewbemvindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
+        android:text="BEM VINDO AO INVESTVISION"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonacao"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="screen"
+        android:text="AÇÃO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="@color/white" />
+
+    <Button
+        android:id="@+id/buttonprecojusto"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#3F51B5"
+        android:text="PREÇO JUSTO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="@color/white" />
+
+    <Button
+        android:id="@+id/buttonfiis"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#3F51B5"
+        android:baselineAligned="false"
+        android:text="FUNDO IMOBILIÁRIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="@color/white" />
+
+    <Button
+        android:id="@+id/buttonpdf"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#3F51B5"
+        android:text="BAIXAR PDF"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="@color/white" />
+</LinearLayout>

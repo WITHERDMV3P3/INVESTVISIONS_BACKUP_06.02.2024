@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".acao">
+
+    <TextView
+        android:id="@+id/textViewacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AÇÃO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextprecolucro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Digite o valor do preço/lucro (P/L)"
+        android:includeFontPadding="false"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextpvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Digite o P/VP"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextcagr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Digite o CAGR (CRESCIMENTO/LUCRO) "
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextmargem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Digite a Margem Líquida"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextdiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Digite o (Dív. Líquida/PL)"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaosalvaracao"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="#3F51B5"
+        android:text="SALVAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/vertabela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER TABELA" />
+
+    <Button
+        android:id="@+id/botaodelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:background="@color/white"
+        android:cacheColorHint="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".precojusto">
+
+    <TextView
+        android:id="@+id/textViewprecojusto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PREÇO JUSTO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextdividendo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Ultimo Dividendo em 12 Meses"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextvaloracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Valor da Ação/FIIS no momento"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonsalvarpreco"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="#3F51B5"
+        android:text="SALVAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>
